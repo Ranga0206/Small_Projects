@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Finder</title>
+    <link rel="shortcut icon" href="asset/biryani.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="head-container">
+      <h1>Recipe Finder</h1>
+    </div>
+    <div class="nav-container">
+      <div class="search-input">
+        <input id="input-search" type="text" placeholder="search recipe" />
+        <button id="search-btn" class="search-btn">Search</button>
+      </div>
+      <div class="categories">
+        <select id="categories">
+          <option value="">categories</option>
+          <option value="Pasta">Pasta</option>
+          <option value="Dessert">Dessert</option>
+          <option value="Vegetarian">Vegetarian</option>
+          <option value="Chicken">Chicken</option>
+          <option value="Lamb">Lamb</option>
+          <option value="Seafood">Seafood</option>
+          <option value="Pork">Pork</option>
+          <option value="Beef">Beef</option>
+          <option value="Miscellaneous">Miscellaneous</option>
+        </select>
+      </div>
+    </div>
+    <div class="display-card-container">
+      <div class="card-item">
+        <img
+          src="https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg"
+          alt="food"
+        />
+        <div class="food-name">
+          <button class="food-btn">Apple Frangipan Tart</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-main-container">
+      <div class="close-container">
+        <button id="close-btn" class="close-btn">
+          <span><ion-icon size="large" name="close"></ion-icon></span>
+        </button>
+      </div>
+
+      <div class="food-container">
+        <div class="food-img-container">
+          <img
+            src="https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg"
+            alt="food"
+          />
+        </div>
+        <div class="food-details">
+          <h1>Ingredient <span>(Apple Frangipan Tart)</span></h1>
+          <ul>
+            <li>digestive biscuits <span>175g/6oz</span></li>
+            <li>butter <span>75g/3oz</span></li>
+            <li>Bramley apples <span>200g/7oz</span></li>
+            <li>caster sugar <span>75g/3oz</span></li>
+            <li>free-range eggs, beaten <span>2</span></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="food-intro">Instructions :</h3>
+      <div class="food-para">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illum
+          dolorem dolore quasi veniam, accusantium sequi corrupti fuga neque
+          optio doloribus fugiat distinctio repellat nesciunt totam officiis!
+          Nemo sequi necessitatibus atque nihil, inventore ipsam accusantium
+          iusto adipisci eaque deserunt, ipsa a ea perspiciatis perferendis quo
+          hic tempore eligendi qui s illo!
+        </p>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
